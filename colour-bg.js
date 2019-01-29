@@ -1,4 +1,7 @@
-$("#color-bg").contents().find("body").html("<script>
+var x = document.getElementById("myframe");
+var y = (x.contentWindow || x.contentDocument);
+y.body.;
+("<script>
 
 // Select fade-effect below:
 // Set 1 if the background may fade from dark to medium 
